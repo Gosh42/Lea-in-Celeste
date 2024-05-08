@@ -25,7 +25,7 @@
     <Anim id="lookUp" path="lookUp" delay="0.1" frames="2-7" />
     <Loop id="walk" path="walk" delay="0.06" />
     <Loop id="push" path="push" delay="0.1" />
-    <Anim id="runSlow" path="runSlow" delay="0.07" goto="runFast" />
+    <Anim id="runSlow" path="runSlow" delay="0.05" goto="runFast" />
     <Loop id="runFast" path="runFast" delay="0.05" />
     <Anim id="runStumble" path="runStumble" delay="0.05" frames="10-11,0-11" goto="runFast"/>
     <Loop id="runWind" path="run_wind" delay="0.095" frames="0-11"/>
