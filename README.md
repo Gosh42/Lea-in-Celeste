@@ -5,7 +5,7 @@
  
 ## Current Animation Progress - 8/56
 ### Main Gameplay
- DONE: duck, idle, idleA, jumpFast, jumpSlow, push, runFast, runSlow
+ DONE: duck, idle, idleA, jumpFast, jumpSlow, push, runFast, runSlow  
  TODO: climb, dangling, dash, death_h, bubble, edge_back, edge, flip, idleB, idleC, lookup, run_carry, run_wind
 
 ### Gameplay (less common)
