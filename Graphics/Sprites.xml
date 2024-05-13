@@ -34,10 +34,10 @@
     <Loop id="dreamDashLoop" path="dreamDash" frames="4-16" delay="0.03" />
     <Anim id="dreamDashOut" path="dreamDash" frames="17-20" delay="0.04" />
     <Loop id="slide" path="slide" delay="0.03" />
-    <Loop id="jumpSlow" path="jumpSlow" delay="0.1" frames="0,1" />
-    <Loop id="jumpFast" path="jumpFast" delay="0.1" frames="0,1" />
-    <Anim id="fallSlow" path="jumpSlow" delay="0.1" frames="2,3" />
-    <Anim id="fallFast" path="jumpFast" delay="0.1" frames="2,3" />
+    <Loop id="jumpSlow" path="jumpSlow" delay="0.1" frames="0-3" />
+    <Loop id="jumpFast" path="jumpFast" delay="0.1" frames="0-3" />
+    <Anim id="fallSlow" path="jumpSlow" delay="0.1" frames="4" />
+    <Anim id="fallFast" path="jumpFast" delay="0.1" frames="4" />
     <Loop id="tired" path="tired" delay="0.18" />
     <Anim id="tiredStill" path="tired" frames="0" />
     <Loop id="wallslide" path="climb" frames="0" />
@@ -46,7 +46,8 @@
     <Loop id="climbup" path="climb" delay="0.04" frames="0-5" />
     <Anim id="climbPush" path="climb" delay="0.04" frames="0,9-11" />
     <Anim id="climbPull" path="climb" delay="0.04" frames="0,12-14" />
-    <Loop id="duck" path="duck" delay="0" frames="0" />
+    <Loop id="duck" path="duckalt" delay="0" frames="0" />
+	<Loop id="dashCrouch" path="duck" delay="0" frames="0" />
     <Anim id="fallPose" path="fallPose" delay="0.1" frames="0-10" goto="idle"/>
     <Loop id="edge" path="edge" delay="0.25" frames="0-13" />
     <Loop id="edgeBack" path="edge_back" delay="0.25"/>
@@ -97,7 +98,13 @@
 	<Loop id="launch" path="launch" delay="0.06" frames="0-7"/>
 	<Anim id="launchRecover" path="launchRecover" delay="0.06"/>
 
-    
+   <Metadata>
+      <Frames path="idle_carry" hair="" carry="-1,-1,-1,0,0,0,0,0,-1"/>
+      <Frames path="jump_carry" hair="" carry="-3,-3,-1,-1"/>
+      <Frames path="run_carry" hair="" carry="-1,0,0,0,-3,-2,-1,0,0,0,-3,-1"/>
+      
+      <Frames path="starFly" hair="0,3"/>
+	</Metadata>
   </Gosha_Lea>
 
 </Sprites>
