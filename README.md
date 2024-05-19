@@ -5,8 +5,8 @@
  
 ## Current Animation Progress - 8/56
 ### Main Gameplay
- DONE: climb, dangling, dash, death_h, duck, flip, idle, idleA, jumpFast, jumpSlow, lookIp, push, runFast, runSlow
- TODO: bubble, edge_back, edge, idleB, idleC
+ DONE: climb, dangling, dash, death_h, duck, edge, flip, idle, idleA, jumpFast, jumpSlow, lookIp, push, runFast, runSlow
+ TODO: bubble, edge_back, idleB, idleC
 
 ### Gameplay (less common)
  TODO: dreamdash, idle_carry, jump_carry, launch, launchrecover, run_carry, run_wind, startstarfly, swim, throw
