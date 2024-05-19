@@ -5,11 +5,11 @@
  
 ## Current Animation Progress - 8/56
 ### Main Gameplay
- DONE: duck, idle, idleA, jumpFast, jumpSlow, push, runFast, runSlow  
- TODO: climb, dangling, dash, death_h, bubble, edge_back, edge, flip, idleB, idleC, lookup, run_carry, run_wind
+ DONE: climb, dangling, dash, death_h, duck, flip, idle, idleA, jumpFast, jumpSlow, lookIp, push, runFast, runSlow
+ TODO: bubble, edge_back, edge, idleB, idleC
 
 ### Gameplay (less common)
- TODO: dreamdash, idle_carry, jump_carry, launch, launchrecover, startstarfly, swim, throw
+ TODO: dreamdash, idle_carry, jump_carry, launch, launchrecover, run_carry, run_wind, startstarfly, swim, throw
  
 ### Cutscenes
  TODO: bigfall, binos, carrytheo_collapse, fall, fallpose, halfwakeup, hug, payphone, pickup, roll, shaking, sitDown, sleep, spin, tentacle, tired, walk_carry_theo, walk, wakeUp
