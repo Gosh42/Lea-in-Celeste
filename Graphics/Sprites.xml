@@ -34,8 +34,8 @@
     <Loop id="dreamDashLoop" path="dreamDash" frames="4-16" delay="0.03" />
     <Anim id="dreamDashOut" path="dreamDash" frames="17-20" delay="0.04" />
     <Loop id="slide" path="slide" delay="0.03" />
-    <Loop id="jumpSlow" path="jumpSlow" delay="0.1" frames="0-3" />
-    <Loop id="jumpFast" path="jumpFast" delay="0.1" frames="0-3" />
+    <Anim id="jumpSlow" path="jumpSlow" delay="0.1" frames="0-3" />
+    <Anim id="jumpFast" path="jumpFast" delay="0.1" frames="0-3" />
     <Anim id="fallSlow" path="jumpSlow" delay="0.1" frames="4" />
     <Anim id="fallFast" path="jumpFast" delay="0.1" frames="4" />
     <Loop id="tired" path="tired" delay="0.18" />
