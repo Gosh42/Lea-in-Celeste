@@ -47,7 +47,6 @@
     <Anim id="climbPush" path="climb" delay="0.04" frames="0,9-11" />
     <Anim id="climbPull" path="climb" delay="0.04" frames="0,12-14" />
     <Loop id="duck" path="duckalt" delay="0" frames="0" />
-	<Loop id="dashCrouch" path="duck" delay="0" frames="0" />
     <Anim id="fallPose" path="fallPose" delay="0.1" frames="0-10" goto="idle"/>
     <Loop id="edge" path="edge" delay="0.25" frames="0-13" />
     <Loop id="edgeBack" path="edge_back" delay="0.25"/>
@@ -97,6 +96,11 @@
 
 	<Loop id="launch" path="launch" delay="0.06" frames="0-7"/>
 	<Anim id="launchRecover" path="launchRecover" delay="0.06"/>
+	
+	<Loop id="dashCrouch" path="duck" delay="0" frames="0" />
+	<Loop id="jumpHyper" path="a-spinningdash" delay="0.03" frames="0-7"/>
+	<Loop id="jumpSuper" path="a-spinningdash" delay="0.03" frames="0-7"/>
+	<Loop id="wallBounce" path="a-spinningdash" delay="0.03" frames="0-7"/>
 
    <Metadata>
       <Frames path="idle" hair="x|x|x|x|x|x|x|x|x"/>
