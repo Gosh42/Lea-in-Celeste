@@ -59,9 +59,9 @@
     <Anim id="deadup"   path="death_h" delay="0.02" frames="0-12" />
     <Anim id="deaddown" path="death_h" delay="0.02" frames="0-12" />
  
-    <Loop id="swimIdle" path="swim" frames="0-5" delay="0.08" />
-    <Loop id="swimUp" path="swim" frames="6-11" delay="0.08" />
-    <Loop id="swimDown" path="swim" frames="12-17" delay="0.08" />
+    <Loop id="swimIdle" path="swim" frames="0-11" delay="0.08" />
+    <Loop id="swimUp" path="swim" frames="12-23" delay="0.08" />
+    <Loop id="swimDown" path="swim" frames="24-35" delay="0.08" />
       
     <Anim id="startStarFly" path="startStarFly" delay="0.08" goto="starFly"/>
     <Loop id="starFly" path="starFly" delay="0.08"/>
@@ -140,7 +140,7 @@
       <Frames path="pickup" hair="x|x|x|x|x"/>
       <Frames path="throw" hair="x|x|x|x"/>
 
-      <Frames path="swim" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
+      <Frames path="swim" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="fall" hair="x|x|x|x|x|x|x|x"/>
       <Frames path="bigFall" hair="x|x|x|x|x|x|x|x|x|x|x"/>
        
