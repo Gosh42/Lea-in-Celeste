@@ -3,13 +3,13 @@
  
  Requires the [Everest mod loader](https://everestapi.github.io/) and [Skin Mod Helper Plus mod](https://gamebanana.com/mods/473796) to function.
  
-## Current Animation Progress - 27/56
+## Current Animation Progress - 29/56
 ### Main Gameplay
  DONE: bubble, climb, dangling, dash, death_h, duck, edge, edge_back, flip, idle, idleA, idleB, idleC, jumpFast, jumpSlow, lookUp, push, runFast, runSlow
 
-
 ### Gameplay (less common)
- TODO: dreamdash, idle_carry, jump_carry, launch, launchrecover, run_carry, run_wind, startstarfly, swim, throw
+ DONE: dreamDash, swim  
+ TODO: idle_carry, jump_carry, launch, launchrecover, run_carry, run_wind, startstarfly, throw
  
 ### Cutscenes
  DONE: lookout, payphone, shaking, sitDown, sleep, tired, walk, wakeUp  
@@ -17,3 +17,8 @@
  
 ### Unused
  TODO: deaddown, deadside, deadup, faint, runStumble, slide, starFly, starmorph
+ 
+## Non-vanilla animations added thanks to SMH+:
+ swimDash, swimDashCrouch  
+ dashCrouch  
+ jumpHyper, jumpSuper, wallBounce

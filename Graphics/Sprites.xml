@@ -97,6 +97,8 @@
 	<Loop id="launch" path="launch" delay="0.06" frames="0-7"/>
 	<Anim id="launchRecover" path="launchRecover" delay="0.06"/>
 	
+	<Anim id="swimDash" path="swimDash" delay="0.02" />
+	<Anim id="swimDashCrouch" path="swimDash" delay="0.02" />
 	<Loop id="dashCrouch" path="duck" delay="0" frames="0" />
 	<Loop id="jumpHyper" path="a-spinningdash" delay="0.03" frames="0-7"/>
 	<Loop id="jumpSuper" path="a-spinningdash" delay="0.03" frames="0-7"/>
