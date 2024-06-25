@@ -1,2 +1,3 @@
 SkinModHelper_Player__Gosha_Lea= Lea
+SkinModHelper_Player__Gosha_Lea2= Lea (less fancy)
 SkinModHelper_Player__Gosha_Shizuka= Shizuka

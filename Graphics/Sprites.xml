@@ -151,7 +151,12 @@
       <Frames path="starMorph" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
 	  </Metadata>
   </Gosha_Lea>
-
+   
+   <Gosha_Lea2 copy="Gosha_Lea" path="characters/Gosha/Lea (less fancy)/">
+	<Anim id="jumpHyper" path="jumpFast" delay="0.1" frames="0-3"/>
+	<Anim id="jumpSuper" path="jumpFast" delay="0.1" frames="0-3"/>
+   </Gosha_Lea2>
+   
    <Gosha_Shizuka copy="Gosha_Lea" path="characters/Gosha/Shizuka/">
     <Metadata>
       <Frames path="idle" hair="0,-2|0,-2|0,-2|0,-2|0,-1|0,-1|0,-1|0,-1|0,-1"/>
