@@ -9,10 +9,10 @@
     <Anim id="rollGetUp" path="roll" frames="12-16" delay=".1" goto="downed"/>
     <Loop id="downed" path="sitDown" delay="0.8" frames="17"/>
 
-    <Loop id="idle_carry" path="idle_carry" delay="0.1" />
+    <Loop id="idle_carry" path="idle_carry" delay="0.1" frames="0,0,0,1,2,2,2,3" />
     <Anim id="runSlow_carry" path="run_carry" delay="0.07" />
-    <Loop id="jumpSlow_carry" path="jump_carry" delay="0.1" frames="0,1" />
-    <Anim id="fallSlow_carry" path="jump_carry" delay="0.1" frames="2,3" />
+    <Anim id="jumpSlow_carry" path="jump_carry" delay="0.1" frames="0-3" />
+    <Anim id="fallSlow_carry" path="jump_carry" delay="0.1" frames="4" />
     <Anim id="pickUp" path="pickup" delay="0.06" />
     <Anim id="throw" path="throw" delay="0.06" goto="idle" />
 
@@ -136,9 +136,9 @@
       <Frames path="dangling" hair="x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="shaking" hair="x"/>
 
-      <Frames path="idle_carry" hair="x|x|x|x|x|x|x|x|x" carry="-1,-1,-1,0,0,0,0,0,-1"/>
-      <Frames path="jump_carry" hair="x|x|x|x" carry="-3,-3,-1,-1"/>
-      <Frames path="run_carry" hair="x|x|x|x|x|x|x|x|x|x|x|x" carry="-1,0,0,0,-3,-2,-1,0,0,0,-3,-1"/>
+      <Frames path="idle_carry" hair="x|x|x|x" carry="-1,0,0,-1"/>
+      <Frames path="jump_carry" hair="x|x|x|x|x" carry="-3,-3,-2,-2,-2"/>
+      <Frames path="run_carry" hair="x|x|x|x|x|x|x|x|x|x|x|x" carry="-1,-1,-1,0,0,0,-1,-1,-1,0,0,0"/>
       <Frames path="pickup" hair="x|x|x|x|x"/>
       <Frames path="throw" hair="x|x|x|x"/>
 
