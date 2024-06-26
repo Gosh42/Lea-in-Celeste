@@ -67,7 +67,7 @@
     <Loop id="starFly" path="starFly" delay="0.08"/>
     <Loop id="bubble" path="bubble" delay="0.08"/>
 
-    <Anim id="fall" path="fall" delay="0.06" frames="0-7" />
+    <Anim id="fall" path="fall" delay="0.06" frames="0-2,3,4,3,4,3" />
     <Loop id="bigFall" path="bigFall" frames="0-4" delay="0.06"/>
     <Anim id="bigFallRecover" path="bigFall" frames="5*5,6*4,7*3,8,8,9,9,10,10,10" delay="0.08" goto="swimIdle"/>
 
@@ -138,12 +138,12 @@
 
       <Frames path="idle_carry" hair="x|x|x|x" carry="-1,0,0,-1"/>
       <Frames path="jump_carry" hair="x|x|x|x|x" carry="-3,-3,-2,-2,-2"/>
-      <Frames path="run_carry" hair="x|x|x|x|x|x|x|x|x|x|x|x" carry="-1,-1,-1,0,0,0,-1,-1,-1,0,0,0"/>
+      <Frames path="run_carry" hair="x|x|x|x|x|x|x|x|x|x|x|x" carry="0,0,0,-1,-1,-1,0,0,0,-1,-1,-1"/>
       <Frames path="pickup" hair="x|x|x|x|x"/>
       <Frames path="throw" hair="x|x|x|x"/>
 
       <Frames path="swim" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
-      <Frames path="fall" hair="x|x|x|x|x|x|x|x"/>
+      <Frames path="fall" hair="x|x|x|x|x"/>
       <Frames path="bigFall" hair="x|x|x|x|x|x|x|x|x|x|x"/>
        
       <Frames path="startStarFly" hair="x|x|x|x"/>
