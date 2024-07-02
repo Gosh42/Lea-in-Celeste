@@ -50,8 +50,8 @@
     <Anim id="fallPose" path="fallPose" delay="0.1" frames="0-10" goto="idle"/>
     <Loop id="edge" path="edge" delay="0.25" frames="0-13" />
     <Loop id="edgeBack" path="edge_back" delay="0.25"/>
-    <Anim id="faint" path="faint" delay="0.1" frames="0-10" goto="fainted" />
-    <Loop id="fainted" path="faint" delay="0.1" frames="10" />
+    <Anim id="faint" path="faint" delay="0.1" frames="0,0,0-8" goto="fainted" />
+    <Loop id="fainted" path="faint" delay="0.1" frames="8" />
     <Anim id="flip" path="flip" delay="0.04" frames="0-7" goto="runFast"/>
     <Loop id="skid" path="flip" delay="0.04" frames="8"/>
     <Loop id="dangling" path="dangling" delay="0.11" frames="0-9" />
@@ -131,7 +131,7 @@
       <Frames path="hug" hair="x"/>
       <Frames path="sleep" hair=""/>
       <Frames path="flip" hair="x|x|x|x|x|x|x|x|x"/>
-      <Frames path="faint" hair="x|x|x|x|x|x|x|x|x|x"/>
+      <Frames path="faint" hair="x|x|x|x|x|x|x|x|x"/>
       <Frames path="fainted" hair="x"/>
       <Frames path="dangling" hair="x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="shaking" hair="x"/>

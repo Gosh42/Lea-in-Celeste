@@ -3,7 +3,7 @@
  
  Requires the [Everest mod loader](https://everestapi.github.io/) and [Skin Mod Helper Plus mod](https://gamebanana.com/mods/473796) to function.
  
-## Current Animation Progress - 41/56
+## Current Animation Progress - 48/56
 ### Main Gameplay
  DONE: bubble, climb, dangling, dash, death_h, duck, edge, edge_back, flip, idle, idleA, idleB, idleC, jumpFast, jumpSlow, lookUp, push, runFast, runSlow
 
@@ -16,8 +16,8 @@
  TODO: bigfall, hug, roll, spin, tentacle
  
 ### Unused
- DONE: carrytheo_collapse, fall  
- TODO: deaddown, deadside, deadup, faint, runStumble, slide, starFly, starmorph
+ DONE: carrytheo_collapse, deaddown, deadside, deadup, fall, faint, slide, starFly (kinda), starmorph  
+ TODO: runStumble
  
 ## Non-vanilla animations added thanks to SMH+:
  swimDash, swimDashCrouch  
