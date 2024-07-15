@@ -27,7 +27,7 @@
     <Loop id="push" path="push" delay="0.1" />
     <Anim id="runSlow" path="runSlow" delay="0.05" goto="runFast" />
     <Loop id="runFast" path="runFast" delay="0.05" />
-    <Anim id="runStumble" path="runStumble" delay="0.05" frames="10-11,0-11" goto="runFast"/>
+    <Anim id="runStumble" path="runStumble" delay="0.05" frames="4-5,0-5" goto="runFast"/>
     <Loop id="runWind" path="run_wind" delay="0.095" frames="0-11"/>
     <Loop id="dash" path="dash" delay="0.09" />
     <Anim id="dreamDashIn" path="dreamDash" frames="0-3" delay="0.04" goto="dreamDashLoop"/>
@@ -116,9 +116,9 @@
       <Frames path="walk" hair="x|x|x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="push" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="runSlow" hair="x|x|x|x|x|x|x|x|x|x|x|x"/>
-      <Frames path="runFast" hair="x|x|x|x|x|x|x|x|x|x|x|x"/>
+      <Frames path="runFast" hair="x|x|x|x|x|x"/>
       <Frames path="run_wind" hair="x|x|x|x|x|x|x|x|x|x|x|x"/>
-      <Frames path="runStumble" hair="x|x|x|x|x|x|x|x|x|x|x|x"/>
+      <Frames path="runStumble" hair="x|x|x|x|x|x"/>
       <Frames path="dash" hair="x|x|x|x"/>
       <Frames path="dreamDash" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
       <Frames path="slide" hair="x|x|x"/>
