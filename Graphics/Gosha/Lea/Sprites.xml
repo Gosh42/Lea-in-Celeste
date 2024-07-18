@@ -47,5 +47,20 @@
     <Loop id="danger" path="danger" delay=".05" />
   </player_sweat>
 
+  <HonlyHelper_CatPetter path="characters/Gosha/Lea/HonlyHelper_Pet/" start="pet">
+    <Loop id="pet" path="player_pet" delay="0.15" frames="0-2,1"/>
+  </HonlyHelper_CatPetter>
 
+  <CollabUtils2_sitBench path="characters/Gosha/Lea/CollabUtils2/" start="sit">
+    <Justify x="0.5" y="1.0" />
+    <Anim id="sit" path="sitBench" delay=".08" frames="0-7,8*2,9,10*4"/>
+    <Anim id="sitHair" path="sitBenchHair" delay=".08" frames="0*15"/>
+  </CollabUtils2_sitBench>
+  
+  <XaphanHelper_player_spinJump path="characters/Gosha/Lea/XaphanHelper/" start="spinBackpack">
+    <Loop id="spinBackpack" path="spinJump" delay="0.04"/>
+    <Loop id="spinNoBackpack" path="spinJump" delay="0.04"/>
+    <Loop id="hairBackpack" path="spinJumpHair" delay="0.04"/>
+    <Loop id="hairNoBackpack" path="spinJumpHair" delay="0.04"/>
+  </XaphanHelper_player_spinJump>
 </Sprites>

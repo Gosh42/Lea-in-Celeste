@@ -5,7 +5,12 @@
  
 ## Current Animation Progress - Vanilla - 56/56, all complete!
 
-## Non-vanilla animations added thanks to SMH+:
+## Non-vanilla animations for vanilla actions added thanks to SMH+:
  swimDash, swimDashCrouch  
  dashCrouch  
  jumpHyper, jumpSuper, wallBounce
+
+## Modded animations:
+  HonlyHelper - petting a cat  
+  CollabUtils2 - sitting on a bench  
+  XaphanHelper - grabbing onto a ceiling (idle and movement), sliding down a slope, metroid-type spin jump

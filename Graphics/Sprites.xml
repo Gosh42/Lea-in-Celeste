@@ -103,6 +103,12 @@
 	<Loop id="jumpHyper" path="a-spinningdash" delay="0.03" frames="0-7"/>
 	<Loop id="jumpSuper" path="a-spinningdash" delay="0.03" frames="0-7"/>
 	<Loop id="wallBounce" path="a-spinningdash" delay="0.03" frames="0-7"/>
+	
+	<!-- XaphanHelper -->
+	<Loop id="XaphanHelper_ceilingIdle" path="XaphanHelper/ceilingIdle" delay="0.1" frames="0,0-3,3-6"/>
+    <Loop id="XaphanHelper_ceilingMove" path="XaphanHelper/ceilingMove" delay="0.05"/>
+	<Loop id="XaphanHelper_slopeSlide" path="XaphanHelper/slopeSlide" delay="0.01"/>
+	<Loop id="XaphanHelper_spinFast" path="XaphanHelper/spinJump" delay="0.04"/>
 
    <Metadata>
       <Frames path="idle" hair="x|x|x|x|x|x|x|x|x"/>
@@ -149,6 +155,15 @@
       <Frames path="startStarFly" hair="x|x|x|x"/>
       <Frames path="starFly" hair="0,3"/>
       <Frames path="starMorph" hair="x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x"/>
+	  
+	  <!-- XaphanHelper -->
+	  <Frames path="XaphanHelper/ceilingIdle" hair="x|x|x|x|x|x|x"/>
+	  <Frames path="XaphanHelper/ceilingMove" hair="x|x|x|x|x|x|x|x|x|x"/>
+	  <Frames path="XaphanHelper/slopeSlide" hair="x|x|x|x|x|x|x|x|x"/>
+	  <Frames path="XaphanHelper/spinJump" hair="x|x|x|x|x|x|x|x"/>
+	  <!--Frames path="player/ceilingIdle" hair="0,-3|0,-3|0,-3|0,-2|0,-2|0,-2|0,-2"/-->
+	  <!--Frames path="player/ceilingMove" hair="0,-3|0,-3|0,-4|0,-3|0,-3|0,-3|0,-3|0,-4|0,-3|0,-3"/-->
+	  <!--Frames path="player/slopeSlide" hair="0,-1|1,-1|1,-1|1,-1|1,0|1,0|1,0|1,0|1,0"/-->
 	  </Metadata>
   </Gosha_Lea>
    
