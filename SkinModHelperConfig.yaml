@@ -7,3 +7,9 @@
   Player_List: true
   Character_ID: "Gosha_Lea2"
   OtherSprite_Path: "Gosha/Lea"
+
+- SkinName: "Gosha_Lea_Silhouette"
+  Player_List: false
+  Silhouette_List: true
+  Character_ID: "Gosha_Lea_playback"
+  OtherSprite_Path: "Gosha/Lea"

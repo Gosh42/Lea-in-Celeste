@@ -171,4 +171,6 @@
 	<Anim id="jumpHyper" path="jumpFast" delay="0.1" frames="0-3"/>
 	<Anim id="jumpSuper" path="jumpFast" delay="0.1" frames="0-3"/>
    </Gosha_Lea2>
+   
+   <Gosha_Lea_playback copy="Gosha_Lea" path="characters/Gosha/Lea_playback/" />
 </Sprites>
