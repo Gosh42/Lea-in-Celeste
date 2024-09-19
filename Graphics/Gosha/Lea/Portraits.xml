@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Sprites>
 
-  <portrait_madeline path="Gosha/Lea/madeline/" sfx="madeline" textbox="madeline">
+  <portrait_madeline path="Gosha/Lea/madeline/" sfx="madeline" textbox="Gosha/Lea/madeline">
     <Center />
 
 	<sfxs>
@@ -81,7 +81,7 @@
     <Loop id="talk_cry" path="cry" delay="0.2" frames="0" />-->
   </portrait_madeline>
 
-  <portrait_madeline_phone path="Gosha/Lea/madelineph/" sfx="madeline" textbox="madeline">
+  <portrait_madeline_phone path="Gosha/Lea/madelineph/" sfx="madeline" textbox="Gosha/Lea/madeline">
     <Center />
 	  
 	<sfxs>
@@ -125,7 +125,7 @@
     <Loop id="talk_distracted" path="distracted" delay="0.2" frames="4,6,5,0" />
   </portrait_madeline_phone>
 
-  <portrait_madeline_mirror path="Gosha/Lea/madelinemirror/" sfx="madeline_mirror" textbox="madeline">
+  <portrait_madeline_mirror path="Gosha/Lea/madelinemirror/" sfx="madeline_mirror" textbox="Gosha/Lea/madeline">
     <Center />
 
     <sfxs>
