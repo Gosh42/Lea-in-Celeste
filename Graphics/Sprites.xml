@@ -46,7 +46,7 @@
     <Loop id="climbup" path="climb" delay="0.04" frames="0-5" />
     <Anim id="climbPush" path="climb" delay="0.04" frames="0,9-11" />
     <Anim id="climbPull" path="climb" delay="0.04" frames="0,12-14" />
-    <Loop id="duck" path="duckalt" delay="0" frames="0" />
+    <Loop id="duck" path="duck" delay="0" frames="0" />
     <Anim id="fallPose" path="fallPose" delay="0.1" frames="0-10" goto="idle"/>
     <Loop id="edge" path="edge" delay="0.25" frames="0-13" />
     <Loop id="edgeBack" path="edge_back" delay="0.25"/>
