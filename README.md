@@ -18,7 +18,7 @@ This mod's changes are:
 
 The mod has two character options in game: "Lea" and "Lea (less fancy)". "Lea" is recommended, but if you find spinning hyperdashes distracting, pick "Lea (less fancy)" - it removes spinning dashes and error-like swimming animations.
 
-This is my first Celeste mod, and I think it turned out quite well. Huge thanks to the members of Celeste's discord server for helping me along the way.
+This is my first Celeste mod, and I think it turned out quite well. Huge thanks to the members of Celeste's discord server for helping me along the way. Additional thanks to Gurglemurgle for fixing an issue with the HairConfig file
 
 btw play CrossCode if you haven't already, it's great
 
