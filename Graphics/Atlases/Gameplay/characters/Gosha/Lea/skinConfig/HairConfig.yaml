@@ -15,7 +15,7 @@ HairColors:
   - Dashes: 1
     Color: "1144AA"
   - Dashes: 2
-    Color: "FF7BFF"
+    Color: "222244"
 
 HairFlash: true # Enables the distracting white flash that happens when your dash count changes.
 OutlineColor: "040000" # This specifies the hair outline color, not the sprite outline.
